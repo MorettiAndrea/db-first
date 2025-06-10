@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>db-first</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-1-1">
+<table>
+<thead>
+<tr>
+<th class="head-cell">Name</th>
+<th class="head-cell">Type</th>
+<th class="head-cell">Attribute</th>
+<th class="head-cell">Index</th>
+ </tr>
+</thead>
+<tbody>
+<tr class="light-blue-background">
+ <td class="body-cell">ID</td>
+ <td class="body-cell">BIGINT</td>
+ <td class="body-cell">NOT NULL, AUTO_INCREMENT</td>
+ <td class="body-cell">PRIMARY KEY</td>
+ </tr>
+ <tr>
+ <td class="body-cell">Model</td>
+ <td class="body-cell">VARCHAR(50)</td>
+ <td class="body-cell">NOT NULL</td>
+ <td class="body-cell"></td>
+ </tr>
+ <tr class="light-blue-background">
+ <td class="body-cell">Brand</td>
+ <td class="body-cell">VARCHAR(50)</td>
+ <td class="body-cell">NOT NULL</td>
+ <td class="body-cell"></td>
+ </tr>
+ <tr>
+ <td class="body-cell">Color</td>
+ <td class="body-cell">VARCHAR(20)</td>
+ <td class="body-cell">NULL</td>
+ <td class="body-cell"></td>
+ </tr>
+ <tr class="light-blue-background">
+ <td class="body-cell">Fuel_type</td>
+ <td class="body-cell">ENUM (Benzina, Diesel, Ibrida, Elettrica, GPL)</td>
+ <td class="body-cell">b</td>
+ <td class="body-cell">b</td>
+ </tr>
+ <tr>
+ <td class="body-cell">Price</td>
+ <td class="body-cell">DECIMAL(7,2)</td>
+ <td class="body-cell">b</td>
+ <td class="body-cell">b</td>
+ </tr>
+ <tr class="light-blue-background">
+ <td class="body-cell">Registration_plate</td>
+ <td class="body-cell">CHAR(7)</td>
+ <td class="body-cell">NOTT NULL,UNIQUE</td>
+ <td class="body-cell">b</td>
+ </tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
