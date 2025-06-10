@@ -46,21 +46,21 @@
  </tr>
  <tr class="light-blue-background">
  <td class="body-cell">Fuel_type</td>
- <td class="body-cell">ENUM (Benzina, Diesel, Ibrida, Elettrica, GPL)</td>
- <td class="body-cell">b</td>
- <td class="body-cell">b</td>
+ <td class="body-cell">ENUM (Gasoline, Diesel, Hybrid, Electric, LPG)</td>
+ <td class="body-cell">NOT NULL</td>
+ <td class="body-cell"></td>
  </tr>
  <tr>
  <td class="body-cell">Price</td>
- <td class="body-cell">FLOAT(9,2)</td>
+ <td class="body-cell">DECIMAL(7,3)</td>
  <td class="body-cell">NOT NULL</td>
  <td class="body-cell"></td>
  </tr>
  <tr class="light-blue-background">
  <td class="body-cell">Registration_plate</td>
  <td class="body-cell">CHAR(7)</td>
- <td class="body-cell">NOT NULL,UNIQUE</td>
- <td class="body-cell"></td>
+ <td class="body-cell">NOT NULL, UNIQUE</td>
+ <td class="body-cell">INDEX</td>
  </tr>
 </tbody>
 </table>
